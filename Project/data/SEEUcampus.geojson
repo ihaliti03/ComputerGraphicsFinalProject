@@ -4,8 +4,291 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "6e58b020-29c5-42bb-9f69-98434364d853",
+        "estimated_height": 3,
+        "rf_penetration_loss": 12,
+        "pycraf_clutter_zone": 5,
+        "building": "residential"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              20.9589606,
+              41.9839171
+            ],
+            [
+              20.9590165,
+              41.9838668
+            ],
+            [
+              20.9590526,
+              41.983889
+            ],
+            [
+              20.9589967,
+              41.9839393
+            ],
+            [
+              20.9589606,
+              41.9839171
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "f0e20dd4-31b7-4888-bade-72a462595180",
+        "estimated_height": 3,
+        "rf_penetration_loss": 12,
+        "pycraf_clutter_zone": 5,
+        "building": "residential"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              20.959071,
+              41.9839432
+            ],
+            [
+              20.959144,
+              41.9841863
+            ],
+            [
+              20.9590674,
+              41.984199
+            ],
+            [
+              20.9589944,
+              41.983956
+            ],
+            [
+              20.959071,
+              41.9839432
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "978b872e-c7b1-4ee2-8f2e-1db60e7f45f4",
+        "estimated_height": 3,
+        "rf_penetration_loss": 12,
+        "pycraf_clutter_zone": 5,
+        "building": "residential"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              20.9587695,
+              41.9842865
+            ],
+            [
+              20.9589036,
+              41.9842666
+            ],
+            [
+              20.9590833,
+              41.9848029
+            ],
+            [
+              20.9590994,
+              41.9850741
+            ],
+            [
+              20.9588821,
+              41.985098
+            ],
+            [
+              20.9588365,
+              41.9848149
+            ],
+            [
+              20.9587695,
+              41.9842865
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "bc6f6044-e984-465e-b7fd-8676e596e0e2",
+        "estimated_height": 3,
+        "rf_penetration_loss": 12,
+        "pycraf_clutter_zone": 5,
+        "building": "residential"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              20.9588827,
+              41.9851242
+            ],
+            [
+              20.959109,
+              41.9850992
+            ],
+            [
+              20.959212,
+              41.9856128
+            ],
+            [
+              20.9589858,
+              41.9856379
+            ],
+            [
+              20.9588827,
+              41.9851242
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "56f053d6-5e60-4292-8c7f-b77f9da60f35",
+        "estimated_height": 3,
+        "rf_penetration_loss": 12,
+        "pycraf_clutter_zone": 5,
+        "building": "residential"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              20.9589657,
+              41.9860944
+            ],
+            [
+              20.9589521,
+              41.9860425
+            ],
+            [
+              20.9592554,
+              41.9859985
+            ],
+            [
+              20.9592779,
+              41.9860843
+            ],
+            [
+              20.9591154,
+              41.9861079
+            ],
+            [
+              20.9591065,
+              41.986074
+            ],
+            [
+              20.9589657,
+              41.9860944
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "43dbc2e8-324c-40b6-a922-a9db8cd63cb5",
+        "estimated_height": 3,
+        "rf_penetration_loss": 12,
+        "pycraf_clutter_zone": 5,
+        "building": "residential"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              20.959168,
+              41.9842448
+            ],
+            [
+              20.9592273,
+              41.9844169
+            ],
+            [
+              20.9591502,
+              41.9844316
+            ],
+            [
+              20.9591277,
+              41.9843661
+            ],
+            [
+              20.9591503,
+              41.9843618
+            ],
+            [
+              20.9591136,
+              41.9842551
+            ],
+            [
+              20.959168,
+              41.9842448
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "79bc6974-9643-4c9a-afec-bc19cbe1dc76",
+        "estimated_height": 3,
+        "rf_penetration_loss": 12,
+        "pycraf_clutter_zone": 5,
+        "building": "residential"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              20.9592554,
+              41.9844783
+            ],
+            [
+              20.9592735,
+              41.9846015
+            ],
+            [
+              20.9591771,
+              41.9846094
+            ],
+            [
+              20.959159,
+              41.9844861
+            ],
+            [
+              20.9592554,
+              41.9844783
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "id": "5e820c29-eaf9-4700-a6d5-646aa230e115",
-        "estimated_height": 5,
+        "estimated_height": 3,
         "rf_penetration_loss": 12,
         "pycraf_clutter_zone": 5,
         "building": "residential"
@@ -42,7 +325,7 @@
       "type": "Feature",
       "properties": {
         "id": "03850450-d2ff-4b3b-a326-c9a4bbb816e4",
-        "estimated_height": 5,
+        "estimated_height": 3,
         "rf_penetration_loss": 12,
         "pycraf_clutter_zone": 5,
         "building": "residential"
@@ -79,7 +362,7 @@
       "type": "Feature",
       "properties": {
         "id": "dd542132-11fc-47f2-898f-d3e06a53747b",
-        "estimated_height": 5,
+        "estimated_height": 3,
         "rf_penetration_loss": 12,
         "pycraf_clutter_zone": 5,
         "building": "residential"
@@ -116,7 +399,7 @@
       "type": "Feature",
       "properties": {
         "id": "ad464e15-5f84-4fc1-a888-6004caf4543b",
-        "estimated_height": 5,
+        "estimated_height": 3,
         "rf_penetration_loss": 12,
         "pycraf_clutter_zone": 5,
         "building": "residential"
@@ -152,8 +435,135 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "44df2b27-8cd7-48e8-b703-c370e9241054",
+        "estimated_height": 3,
+        "rf_penetration_loss": 12,
+        "pycraf_clutter_zone": 5,
+        "building": "residential"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              20.9592553,
+              41.9855946
+            ],
+            [
+              20.9594135,
+              41.9855769
+            ],
+            [
+              20.9594487,
+              41.9857503
+            ],
+            [
+              20.9592904,
+              41.985768
+            ],
+            [
+              20.9592553,
+              41.9855946
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "165b3ac2-95f7-4aa1-a361-ce4db45fcc5d",
+        "estimated_height": 3,
+        "rf_penetration_loss": 12,
+        "pycraf_clutter_zone": 5,
+        "building": "residential"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              20.9597655,
+              41.9860928
+            ],
+            [
+              20.9595706,
+              41.9861124
+            ],
+            [
+              20.9595643,
+              41.9860779
+            ],
+            [
+              20.9597593,
+              41.9860584
+            ],
+            [
+              20.9597655,
+              41.9860928
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "a4b584ef-3129-4f2a-af07-935be77f3269",
+        "estimated_height": 3,
+        "rf_penetration_loss": 12,
+        "pycraf_clutter_zone": 5,
+        "building": "residential"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              20.9597505,
+              41.9863348
+            ],
+            [
+              20.9597493,
+              41.9863069
+            ],
+            [
+              20.9596972,
+              41.9863082
+            ],
+            [
+              20.9596956,
+              41.9862711
+            ],
+            [
+              20.9597438,
+              41.98627
+            ],
+            [
+              20.9597423,
+              41.9862361
+            ],
+            [
+              20.9598265,
+              41.9862341
+            ],
+            [
+              20.9598309,
+              41.9863328
+            ],
+            [
+              20.9597505,
+              41.9863348
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "id": "445a5077-49e5-4752-8c73-709b162247d3",
-        "estimated_height": 5,
+        "estimated_height": 3,
         "rf_penetration_loss": 12,
         "pycraf_clutter_zone": 5,
         "building": "residential"
@@ -190,7 +600,7 @@
       "type": "Feature",
       "properties": {
         "id": "5fa04c9b-bf15-434f-be9c-fd09444bc692",
-        "estimated_height": 5,
+        "estimated_height": 3,
         "rf_penetration_loss": 12,
         "pycraf_clutter_zone": 5,
         "building": "residential"
@@ -226,8 +636,188 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "0c4d82f8-68f9-46bd-8eb5-3e920658c6c0",
+        "estimated_height": 3,
+        "rf_penetration_loss": 12,
+        "pycraf_clutter_zone": 5,
+        "building": "residential"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              20.959049,
+              41.9864109
+            ],
+            [
+              20.9590302,
+              41.9863244
+            ],
+            [
+              20.9595987,
+              41.986256
+            ],
+            [
+              20.9596464,
+              41.9864749
+            ],
+            [
+              20.9595657,
+              41.9864846
+            ],
+            [
+              20.9595369,
+              41.9863522
+            ],
+            [
+              20.959049,
+              41.9864109
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "a3f9364a-9aeb-4c0a-bc15-10a674c67d93",
+        "estimated_height": 3,
+        "rf_penetration_loss": 12,
+        "pycraf_clutter_zone": 5,
+        "building": "residential"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              20.9592992,
+              41.9866439
+            ],
+            [
+              20.9591042,
+              41.986665
+            ],
+            [
+              20.959091,
+              41.9865976
+            ],
+            [
+              20.959286,
+              41.9865765
+            ],
+            [
+              20.9592992,
+              41.9866439
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "4f5e1de1-16d8-42f1-b714-e2bc3f1f5707",
+        "estimated_height": 3,
+        "rf_penetration_loss": 12,
+        "pycraf_clutter_zone": 5,
+        "building": "residential"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              20.9593115,
+              41.9865808
+            ],
+            [
+              20.9593945,
+              41.9865779
+            ],
+            [
+              20.9593924,
+              41.986546
+            ],
+            [
+              20.9594941,
+              41.9865425
+            ],
+            [
+              20.9594983,
+              41.9866081
+            ],
+            [
+              20.9593136,
+              41.9866146
+            ],
+            [
+              20.9593115,
+              41.9865808
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "bae49bc6-ebba-428b-9101-e374f808a5dc",
+        "estimated_height": 3,
+        "rf_penetration_loss": 12,
+        "pycraf_clutter_zone": 5,
+        "building": "residential"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              20.9594527,
+              41.9867009
+            ],
+            [
+              20.9594782,
+              41.9866966
+            ],
+            [
+              20.9595535,
+              41.9869409
+            ],
+            [
+              20.9591942,
+              41.9870021
+            ],
+            [
+              20.9591685,
+              41.9869188
+            ],
+            [
+              20.9594361,
+              41.9868732
+            ],
+            [
+              20.9593724,
+              41.9866667
+            ],
+            [
+              20.9594387,
+              41.9866554
+            ],
+            [
+              20.9594527,
+              41.9867009
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "id": "cc110bb9-1cab-4ebb-a22c-c6cc905aa2a9",
-        "estimated_height": 5,
+        "estimated_height": 3,
         "rf_penetration_loss": 12,
         "pycraf_clutter_zone": 5,
         "building": "residential"
@@ -264,7 +854,7 @@
       "type": "Feature",
       "properties": {
         "id": "74030c74-b2da-49dc-9fdf-cbee1d44fb15",
-        "estimated_height": 5,
+        "estimated_height": 3,
         "rf_penetration_loss": 12,
         "pycraf_clutter_zone": 5,
         "building": "residential"
@@ -301,7 +891,7 @@
       "type": "Feature",
       "properties": {
         "id": "68bd57df-a030-4a28-acc9-e7f375d8dc34",
-        "estimated_height": 5,
+        "estimated_height": 3,
         "rf_penetration_loss": 12,
         "pycraf_clutter_zone": 5,
         "building": "residential"
@@ -338,7 +928,7 @@
       "type": "Feature",
       "properties": {
         "id": "4ed0f131-76dc-482d-a3c4-01fa1e3a683d",
-        "estimated_height": 5,
+        "estimated_height": 3,
         "rf_penetration_loss": 12,
         "pycraf_clutter_zone": 5,
         "building": "residential"
@@ -383,7 +973,7 @@
       "type": "Feature",
       "properties": {
         "id": "bd076cc7-d4ac-45e2-bea9-60ccf97e2fef",
-        "estimated_height": 5,
+        "estimated_height": 3,
         "rf_penetration_loss": 12,
         "pycraf_clutter_zone": 5,
         "building": "residential"
@@ -460,7 +1050,7 @@
       "type": "Feature",
       "properties": {
         "id": "ca720a5a-78e2-470d-9539-17b60ec66ceb",
-        "estimated_height": 5,
+        "estimated_height": 3,
         "rf_penetration_loss": 12,
         "pycraf_clutter_zone": 5,
         "building": "residential"
@@ -497,7 +1087,7 @@
       "type": "Feature",
       "properties": {
         "id": "e2ceba54-a4ff-4257-8662-c20331d7e696",
-        "estimated_height": 5,
+        "estimated_height": 3,
         "rf_penetration_loss": 12,
         "pycraf_clutter_zone": 5,
         "building": "residential"
@@ -534,7 +1124,7 @@
       "type": "Feature",
       "properties": {
         "id": "b0d6186a-3263-47c6-b0b4-9ea294ad8854",
-        "estimated_height": 5,
+        "estimated_height": 3,
         "rf_penetration_loss": 12,
         "pycraf_clutter_zone": 5,
         "building": "residential"
@@ -571,7 +1161,7 @@
       "type": "Feature",
       "properties": {
         "id": "cfba0f21-2adc-45a3-ba51-abceb5c7624e",
-        "estimated_height": 5,
+        "estimated_height": 3,
         "rf_penetration_loss": 12,
         "pycraf_clutter_zone": 5,
         "building": "residential"
@@ -616,7 +1206,7 @@
       "type": "Feature",
       "properties": {
         "id": "9617a372-3815-4153-b9ae-4b23082dc00e",
-        "estimated_height": 5,
+        "estimated_height": 3,
         "rf_penetration_loss": 12,
         "pycraf_clutter_zone": 5,
         "building": "residential"
@@ -661,7 +1251,7 @@
       "type": "Feature",
       "properties": {
         "id": "0d4e5aa9-bb71-471a-aa1d-5b56e3987164",
-        "estimated_height": 5,
+        "estimated_height": 3,
         "rf_penetration_loss": 12,
         "pycraf_clutter_zone": 5,
         "building": "residential"
@@ -702,7 +1292,7 @@
       "type": "Feature",
       "properties": {
         "id": "d1bb320e-a90e-4aeb-b550-5fccb6862ec0",
-        "estimated_height": 5,
+        "estimated_height": 3,
         "rf_penetration_loss": 12,
         "pycraf_clutter_zone": 5,
         "building": "residential"
@@ -743,7 +1333,7 @@
       "type": "Feature",
       "properties": {
         "id": "95530b17-d295-4ef1-8e61-b24488a6e162",
-        "estimated_height": 5,
+        "estimated_height": 3,
         "rf_penetration_loss": 12,
         "pycraf_clutter_zone": 5,
         "building": "residential"
@@ -780,7 +1370,7 @@
       "type": "Feature",
       "properties": {
         "id": "171947d9-f297-4836-aa1b-f955895ae9f6",
-        "estimated_height": 5,
+        "estimated_height": 3,
         "rf_penetration_loss": 12,
         "pycraf_clutter_zone": 5,
         "building": "residential"
@@ -821,7 +1411,7 @@
       "type": "Feature",
       "properties": {
         "id": "10f2e022-72af-4f4a-a89a-32d3b237294a",
-        "estimated_height": 5,
+        "estimated_height": 3,
         "rf_penetration_loss": 12,
         "pycraf_clutter_zone": 5,
         "building": "residential"
@@ -866,7 +1456,7 @@
       "type": "Feature",
       "properties": {
         "id": "4221c1d2-fb38-42cc-a0b5-4a8108e12ab1",
-        "estimated_height": 5,
+        "estimated_height": 3,
         "rf_penetration_loss": 12,
         "pycraf_clutter_zone": 5,
         "building": "residential"
@@ -903,7 +1493,7 @@
       "type": "Feature",
       "properties": {
         "id": "7752bfb6-4c98-46c7-8c57-deac9bd08455",
-        "estimated_height": 5,
+        "estimated_height": 3,
         "rf_penetration_loss": 12,
         "pycraf_clutter_zone": 5,
         "building": "residential"
@@ -939,8 +1529,168 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "4282965c-a4df-4927-a212-24a20a367121",
+        "estimated_height": 3,
+        "rf_penetration_loss": 12,
+        "pycraf_clutter_zone": 5,
+        "building": "residential"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              20.9594674,
+              41.987023
+            ],
+            [
+              20.9595046,
+              41.987251
+            ],
+            [
+              20.959309,
+              41.9872686
+            ],
+            [
+              20.9592718,
+              41.9870407
+            ],
+            [
+              20.9594674,
+              41.987023
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "6ca8d644-99ed-45f8-b784-ef13b2014d26",
+        "estimated_height": 3,
+        "rf_penetration_loss": 12,
+        "pycraf_clutter_zone": 5,
+        "building": "residential"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              20.9598163,
+              41.9873368
+            ],
+            [
+              20.9595909,
+              41.9872564
+            ],
+            [
+              20.9596536,
+              41.9871594
+            ],
+            [
+              20.959879,
+              41.9872399
+            ],
+            [
+              20.9598163,
+              41.9873368
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "9a50444f-9d00-41cb-aaa4-726d0cd3eb13",
+        "estimated_height": 3,
+        "rf_penetration_loss": 12,
+        "pycraf_clutter_zone": 5,
+        "building": "residential"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              20.9595315,
+              41.9873092
+            ],
+            [
+              20.9596489,
+              41.9872977
+            ],
+            [
+              20.9596863,
+              41.9875085
+            ],
+            [
+              20.9594423,
+              41.9875324
+            ],
+            [
+              20.9594157,
+              41.9873823
+            ],
+            [
+              20.9595423,
+              41.9873699
+            ],
+            [
+              20.9595315,
+              41.9873092
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ca3e4049-e505-476f-a291-f9ef929ba708",
+        "estimated_height": 3,
+        "rf_penetration_loss": 12,
+        "pycraf_clutter_zone": 5,
+        "building": "residential"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              20.9597262,
+              41.9878434
+            ],
+            [
+              20.9596637,
+              41.9875359
+            ],
+            [
+              20.9598091,
+              41.9875196
+            ],
+            [
+              20.9598436,
+              41.9876894
+            ],
+            [
+              20.9598716,
+              41.987827
+            ],
+            [
+              20.9597262,
+              41.9878434
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "id": "8cb20e1c-823c-423a-ba14-791ec7df822e",
-        "estimated_height": 5,
+        "estimated_height": 3,
         "rf_penetration_loss": 12,
         "pycraf_clutter_zone": 5,
         "building": "residential"
@@ -977,7 +1727,7 @@
       "type": "Feature",
       "properties": {
         "id": "9e1fd5e0-d5e1-48a2-a4f8-00a2fc4afcab",
-        "estimated_height": 5,
+        "estimated_height": 3,
         "rf_penetration_loss": 12,
         "pycraf_clutter_zone": 5,
         "building": "residential"
@@ -1014,7 +1764,7 @@
       "type": "Feature",
       "properties": {
         "id": "39570679-79f5-48ba-8ae6-cdb93afe2d10",
-        "estimated_height": 5,
+        "estimated_height": 3,
         "rf_penetration_loss": 12,
         "pycraf_clutter_zone": 5,
         "building": "residential"
@@ -1051,7 +1801,7 @@
       "type": "Feature",
       "properties": {
         "id": "1caf4c55-d375-43e1-8174-8d401219f665",
-        "estimated_height": 5,
+        "estimated_height": 3,
         "rf_penetration_loss": 12,
         "pycraf_clutter_zone": 5,
         "building": "residential"
@@ -1087,8 +1837,53 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "4b615c82-159c-4b4c-8a5b-5ed8d7828d91",
+        "estimated_height": 3,
+        "rf_penetration_loss": 12,
+        "pycraf_clutter_zone": 5,
+        "building": "residential"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              20.959586,
+              41.9877889
+            ],
+            [
+              20.9596023,
+              41.9878952
+            ],
+            [
+              20.9594037,
+              41.987912
+            ],
+            [
+              20.9593552,
+              41.9875951
+            ],
+            [
+              20.9596015,
+              41.9875743
+            ],
+            [
+              20.9596337,
+              41.9877849
+            ],
+            [
+              20.959586,
+              41.9877889
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "id": "3d2fc934-65ab-4a43-b190-a160a3870a56",
-        "estimated_height": 5,
+        "estimated_height": 3,
         "rf_penetration_loss": 12,
         "pycraf_clutter_zone": 5,
         "building": "residential"
@@ -1124,8 +1919,45 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "99c18881-168d-479e-a242-80a88bc97d4a",
+        "estimated_height": 3,
+        "rf_penetration_loss": 12,
+        "pycraf_clutter_zone": 5,
+        "building": "residential"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              20.959617,
+              41.9879949
+            ],
+            [
+              20.959737,
+              41.9885301
+            ],
+            [
+              20.9595397,
+              41.9885546
+            ],
+            [
+              20.9594197,
+              41.9880194
+            ],
+            [
+              20.959617,
+              41.9879949
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "id": "b5d2ec50-5af3-4f7d-9db1-e6cb5ce9bf29",
-        "estimated_height": 5,
+        "estimated_height": 3,
         "rf_penetration_loss": 12,
         "pycraf_clutter_zone": 5,
         "building": "residential"
@@ -1162,7 +1994,7 @@
       "type": "Feature",
       "properties": {
         "id": "e77f19ed-842e-4a0e-ad48-1494940a3d0e",
-        "estimated_height": 5,
+        "estimated_height": 3,
         "rf_penetration_loss": 12,
         "pycraf_clutter_zone": 5,
         "building": "residential"
@@ -1199,7 +2031,7 @@
       "type": "Feature",
       "properties": {
         "id": "0e665cf5-9ed5-4d85-a73f-5d8759ae6f54",
-        "estimated_height": 5,
+        "estimated_height": 3,
         "rf_penetration_loss": 12,
         "pycraf_clutter_zone": 5,
         "building": "residential"
@@ -1236,7 +2068,7 @@
       "type": "Feature",
       "properties": {
         "id": "fa81355b-f579-4279-b5b3-c97b4f456e90",
-        "estimated_height": 5,
+        "estimated_height": 3,
         "rf_penetration_loss": 12,
         "pycraf_clutter_zone": 5,
         "building": "residential"
@@ -1273,7 +2105,7 @@
       "type": "Feature",
       "properties": {
         "id": "505d5f50-b4fd-4a39-b453-dfd113ca2f4c",
-        "estimated_height": 5,
+        "estimated_height": 3,
         "rf_penetration_loss": 12,
         "pycraf_clutter_zone": 5,
         "building": "residential"
@@ -1310,7 +2142,7 @@
       "type": "Feature",
       "properties": {
         "id": "e5c26b0a-f14a-4c4d-ad1e-efff07c5f20d",
-        "estimated_height": 5,
+        "estimated_height": 3,
         "rf_penetration_loss": 12,
         "pycraf_clutter_zone": 5,
         "building": "residential"
@@ -1347,7 +2179,7 @@
       "type": "Feature",
       "properties": {
         "id": "bb421882-c220-470d-87a4-41b8a3e97829",
-        "estimated_height": 5,
+        "estimated_height": 3,
         "rf_penetration_loss": 12,
         "pycraf_clutter_zone": 5,
         "building": "residential"
@@ -1384,7 +2216,7 @@
       "type": "Feature",
       "properties": {
         "id": "1ea24222-80ab-489c-b561-810c7c0c656c",
-        "estimated_height": 5,
+        "estimated_height": 3,
         "rf_penetration_loss": 12,
         "pycraf_clutter_zone": 5,
         "building": "residential"
@@ -1421,7 +2253,7 @@
       "type": "Feature",
       "properties": {
         "id": "65132e63-7394-4761-b8f9-432abc7d70b7",
-        "estimated_height": 5,
+        "estimated_height": 3,
         "rf_penetration_loss": 12,
         "pycraf_clutter_zone": 5,
         "building": "residential"
@@ -1458,7 +2290,7 @@
       "type": "Feature",
       "properties": {
         "id": "88d1b3d1-ea63-4784-b048-a171825c513d",
-        "estimated_height": 5,
+        "estimated_height": 3,
         "rf_penetration_loss": 12,
         "pycraf_clutter_zone": 5,
         "building": "residential"
@@ -1495,7 +2327,7 @@
       "type": "Feature",
       "properties": {
         "id": "565ea80e-d4e5-488f-b3db-87f4a06bdf64",
-        "estimated_height": 5,
+        "estimated_height": 3,
         "rf_penetration_loss": 12,
         "pycraf_clutter_zone": 5,
         "building": "residential"
@@ -1532,7 +2364,7 @@
       "type": "Feature",
       "properties": {
         "id": "5b471d7a-fbd5-41eb-8c11-16f13952698a",
-        "estimated_height": 5,
+        "estimated_height": 3,
         "rf_penetration_loss": 12,
         "pycraf_clutter_zone": 5,
         "building": "residential"
@@ -1569,7 +2401,7 @@
       "type": "Feature",
       "properties": {
         "id": "059cd584-35a7-487c-bae6-4c84730f683b",
-        "estimated_height": 5,
+        "estimated_height": 3,
         "rf_penetration_loss": 12,
         "pycraf_clutter_zone": 5,
         "building": "residential"
@@ -1606,7 +2438,7 @@
       "type": "Feature",
       "properties": {
         "id": "c032347d-b732-4dd3-9d14-10b82dba51b1",
-        "estimated_height": 5,
+        "estimated_height": 3,
         "rf_penetration_loss": 12,
         "pycraf_clutter_zone": 5,
         "building": "residential"
@@ -1643,7 +2475,7 @@
       "type": "Feature",
       "properties": {
         "id": "cee5e444-2e3d-43c0-93ae-d60be06a6029",
-        "estimated_height": 5,
+        "estimated_height": 3,
         "rf_penetration_loss": 12,
         "pycraf_clutter_zone": 5,
         "building": "residential"
@@ -1679,8 +2511,82 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "909cf5af-a2aa-4f12-a450-37ac52796f2b",
+        "estimated_height": 3,
+        "rf_penetration_loss": 12,
+        "pycraf_clutter_zone": 5,
+        "building": "residential"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              20.9595603,
+              41.9885996
+            ],
+            [
+              20.9597156,
+              41.9885817
+            ],
+            [
+              20.9597545,
+              41.9887682
+            ],
+            [
+              20.9595992,
+              41.9887861
+            ],
+            [
+              20.9595603,
+              41.9885996
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "15d4d169-38cc-475e-8f7a-bbdc9ab9e2d0",
+        "estimated_height": 3,
+        "rf_penetration_loss": 12,
+        "pycraf_clutter_zone": 5,
+        "building": "residential"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              20.9596003,
+              41.9888313
+            ],
+            [
+              20.9597691,
+              41.9888104
+            ],
+            [
+              20.9598161,
+              41.9890198
+            ],
+            [
+              20.9596473,
+              41.9890407
+            ],
+            [
+              20.9596003,
+              41.9888313
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "id": "abc48427-5c9a-474c-b257-ed883fdde598",
-        "estimated_height": 5,
+        "estimated_height": 3,
         "rf_penetration_loss": 12,
         "pycraf_clutter_zone": 5,
         "building": "residential"
@@ -1724,8 +2630,90 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "71681d9c-7cec-42fa-b5a7-cb57c28aa86e",
+        "estimated_height": 3,
+        "rf_penetration_loss": 12,
+        "pycraf_clutter_zone": 5,
+        "building": "residential"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              20.9601969,
+              41.989283
+            ],
+            [
+              20.9602391,
+              41.9895896
+            ],
+            [
+              20.9600931,
+              41.9896007
+            ],
+            [
+              20.9600712,
+              41.9894421
+            ],
+            [
+              20.9600208,
+              41.9894459
+            ],
+            [
+              20.9600005,
+              41.9892979
+            ],
+            [
+              20.9601969,
+              41.989283
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "7d1fb87b-0588-4a39-8886-883143da2d8b",
+        "estimated_height": 3,
+        "rf_penetration_loss": 12,
+        "pycraf_clutter_zone": 5,
+        "building": "residential"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              20.9599594,
+              41.989688
+            ],
+            [
+              20.9599615,
+              41.9896462
+            ],
+            [
+              20.9600258,
+              41.989648
+            ],
+            [
+              20.9600237,
+              41.9896898
+            ],
+            [
+              20.9599594,
+              41.989688
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "id": "16f5a695-34ad-46de-817d-cba83f95a6df",
-        "estimated_height": 5,
+        "estimated_height": 3,
         "rf_penetration_loss": 12,
         "pycraf_clutter_zone": 5,
         "building": "residential"
@@ -1806,7 +2794,7 @@
       "type": "Feature",
       "properties": {
         "id": "a5ff7599-77af-40be-b05e-b4a6c272f51d",
-        "estimated_height": 5,
+        "estimated_height": 3,
         "rf_penetration_loss": 12,
         "pycraf_clutter_zone": 5,
         "building": "residential"
@@ -1927,7 +2915,7 @@
       "type": "Feature",
       "properties": {
         "id": "41b2596f-6b7e-446c-a852-b4d74b9bad1e",
-        "estimated_height": 5,
+        "estimated_height": 3,
         "rf_penetration_loss": 12,
         "pycraf_clutter_zone": 5,
         "building": "residential"
@@ -1963,8 +2951,913 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "1adff1b5-6ee7-452a-b386-51099892e644",
+        "estimated_height": 3,
+        "rf_penetration_loss": 12,
+        "pycraf_clutter_zone": 5,
+        "building": "residential"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              20.9613151,
+              41.9898228
+            ],
+            [
+              20.9612826,
+              41.9896439
+            ],
+            [
+              20.9614302,
+              41.9896291
+            ],
+            [
+              20.9614626,
+              41.989808
+            ],
+            [
+              20.9613151,
+              41.9898228
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5643ff6e-8b6d-4a44-a443-5b7c4a1d4133",
+        "estimated_height": 3,
+        "rf_penetration_loss": 12,
+        "pycraf_clutter_zone": 5,
+        "building": "residential"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              20.9617189,
+              41.9898787
+            ],
+            [
+              20.9615667,
+              41.9898921
+            ],
+            [
+              20.9615237,
+              41.9896228
+            ],
+            [
+              20.9618755,
+              41.9895918
+            ],
+            [
+              20.9618851,
+              41.989652
+            ],
+            [
+              20.9617079,
+              41.9896676
+            ],
+            [
+              20.9617151,
+              41.9897128
+            ],
+            [
+              20.9616463,
+              41.9897189
+            ],
+            [
+              20.9616521,
+              41.989755
+            ],
+            [
+              20.9616985,
+              41.9897509
+            ],
+            [
+              20.9617189,
+              41.9898787
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "7d94807f-0aee-481c-b22d-14948f879d0d",
+        "estimated_height": 3,
+        "rf_penetration_loss": 12,
+        "pycraf_clutter_zone": 5,
+        "building": "residential"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              20.9602086,
+              41.9912059
+            ],
+            [
+              20.9601834,
+              41.9909963
+            ],
+            [
+              20.9600785,
+              41.9910032
+            ],
+            [
+              20.9600685,
+              41.9909194
+            ],
+            [
+              20.9602159,
+              41.9909096
+            ],
+            [
+              20.9602206,
+              41.9909491
+            ],
+            [
+              20.9603404,
+              41.9909412
+            ],
+            [
+              20.9603709,
+              41.9911951
+            ],
+            [
+              20.9602086,
+              41.9912059
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "6606de66-9ec2-401b-8a29-b1ba6f55a22a",
+        "estimated_height": 3,
+        "rf_penetration_loss": 12,
+        "pycraf_clutter_zone": 5,
+        "building": "residential"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              20.960786,
+              41.9900903
+            ],
+            [
+              20.9607621,
+              41.9899683
+            ],
+            [
+              20.9609308,
+              41.98995
+            ],
+            [
+              20.9609548,
+              41.9900719
+            ],
+            [
+              20.960786,
+              41.9900903
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "51f02010-ab84-452f-bc4b-37da23420cbd",
+        "estimated_height": 3,
+        "rf_penetration_loss": 12,
+        "pycraf_clutter_zone": 5,
+        "building": "residential"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              20.9605601,
+              41.9903959
+            ],
+            [
+              20.9605706,
+              41.9903948
+            ],
+            [
+              20.9605549,
+              41.9903148
+            ],
+            [
+              20.9605421,
+              41.9903162
+            ],
+            [
+              20.9605125,
+              41.9901656
+            ],
+            [
+              20.9605253,
+              41.9901642
+            ],
+            [
+              20.9605107,
+              41.9900903
+            ],
+            [
+              20.960496,
+              41.9900919
+            ],
+            [
+              20.9604777,
+              41.9899992
+            ],
+            [
+              20.9607621,
+              41.9899683
+            ],
+            [
+              20.960786,
+              41.9900903
+            ],
+            [
+              20.9607068,
+              41.9900989
+            ],
+            [
+              20.960701,
+              41.9900696
+            ],
+            [
+              20.9606801,
+              41.9900719
+            ],
+            [
+              20.9606946,
+              41.9901458
+            ],
+            [
+              20.9607044,
+              41.9901448
+            ],
+            [
+              20.960734,
+              41.9902953
+            ],
+            [
+              20.9607243,
+              41.9902964
+            ],
+            [
+              20.96074,
+              41.9903764
+            ],
+            [
+              20.9607703,
+              41.9903731
+            ],
+            [
+              20.9607628,
+              41.9903347
+            ],
+            [
+              20.9608457,
+              41.9903257
+            ],
+            [
+              20.9608701,
+              41.9904498
+            ],
+            [
+              20.960577,
+              41.9904817
+            ],
+            [
+              20.9605601,
+              41.9903959
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "007a0dfd-e6e4-4590-82cb-c446de011a79",
+        "estimated_height": 3,
+        "rf_penetration_loss": 12,
+        "pycraf_clutter_zone": 5,
+        "building": "residential"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              20.9608701,
+              41.9904498
+            ],
+            [
+              20.9608457,
+              41.9903257
+            ],
+            [
+              20.9610014,
+              41.9903088
+            ],
+            [
+              20.9610258,
+              41.9904329
+            ],
+            [
+              20.9608701,
+              41.9904498
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "1c54acdd-ab1a-44a3-bb4f-89a735e8cfd4",
+        "estimated_height": 3,
+        "rf_penetration_loss": 12,
+        "pycraf_clutter_zone": 5,
+        "building": "residential"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              20.9617105,
+              41.9900027
+            ],
+            [
+              20.9618538,
+              41.9899815
+            ],
+            [
+              20.9618723,
+              41.9900505
+            ],
+            [
+              20.9617289,
+              41.9900717
+            ],
+            [
+              20.9617105,
+              41.9900027
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "0f59d07f-862c-43bb-a1c1-a06687f8a594",
+        "estimated_height": 3,
+        "rf_penetration_loss": 12,
+        "pycraf_clutter_zone": 5,
+        "building": "residential"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              20.9614607,
+              41.9899581
+            ],
+            [
+              20.9615086,
+              41.9902529
+            ],
+            [
+              20.961305,
+              41.9902712
+            ],
+            [
+              20.9612758,
+              41.9900916
+            ],
+            [
+              20.9612165,
+              41.9900969
+            ],
+            [
+              20.9612202,
+              41.9901193
+            ],
+            [
+              20.9611647,
+              41.9901243
+            ],
+            [
+              20.9611445,
+              41.9900005
+            ],
+            [
+              20.9612318,
+              41.9899927
+            ],
+            [
+              20.9612295,
+              41.9899789
+            ],
+            [
+              20.9614607,
+              41.9899581
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "b45a6682-cd63-43ee-9235-141ee461be13",
+        "estimated_height": 3,
+        "rf_penetration_loss": 12,
+        "pycraf_clutter_zone": 5,
+        "building": "residential"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              20.9606912,
+              41.9910451
+            ],
+            [
+              20.9606562,
+              41.9908737
+            ],
+            [
+              20.9612792,
+              41.9908035
+            ],
+            [
+              20.9612874,
+              41.9908439
+            ],
+            [
+              20.9613072,
+              41.9908621
+            ],
+            [
+              20.9613275,
+              41.9909615
+            ],
+            [
+              20.9611754,
+              41.9909786
+            ],
+            [
+              20.9612096,
+              41.9911462
+            ],
+            [
+              20.9612802,
+              41.9911383
+            ],
+            [
+              20.9612852,
+              41.9911352
+            ],
+            [
+              20.9613205,
+              41.9911676
+            ],
+            [
+              20.9615284,
+              41.9911442
+            ],
+            [
+              20.9615462,
+              41.9912316
+            ],
+            [
+              20.9615169,
+              41.9912491
+            ],
+            [
+              20.9611997,
+              41.9912849
+            ],
+            [
+              20.9612137,
+              41.9912978
+            ],
+            [
+              20.9612517,
+              41.9914844
+            ],
+            [
+              20.9611932,
+              41.991491
+            ],
+            [
+              20.9611412,
+              41.9914431
+            ],
+            [
+              20.9611223,
+              41.9914545
+            ],
+            [
+              20.9611161,
+              41.9914243
+            ],
+            [
+              20.9611821,
+              41.9913846
+            ],
+            [
+              20.9611516,
+              41.9913566
+            ],
+            [
+              20.9611388,
+              41.9912937
+            ],
+            [
+              20.9607917,
+              41.9913329
+            ],
+            [
+              20.9607669,
+              41.9912113
+            ],
+            [
+              20.9609032,
+              41.9911959
+            ],
+            [
+              20.9608776,
+              41.9910702
+            ],
+            [
+              20.9608329,
+              41.9910292
+            ],
+            [
+              20.9606912,
+              41.9910451
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "47a12fdb-fb7b-4a37-a0f4-0de5f0088aef",
+        "estimated_height": 3,
+        "rf_penetration_loss": 12,
+        "pycraf_clutter_zone": 5,
+        "building": "residential"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              20.9611451,
+              41.9917439
+            ],
+            [
+              20.9611383,
+              41.9915846
+            ],
+            [
+              20.9612883,
+              41.991581
+            ],
+            [
+              20.9612952,
+              41.9917403
+            ],
+            [
+              20.9611451,
+              41.9917439
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "426d6548-8049-4add-a264-30db5e688612",
+        "estimated_height": 3,
+        "rf_penetration_loss": 12,
+        "pycraf_clutter_zone": 5,
+        "building": "residential"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              20.9611795,
+              41.9917836
+            ],
+            [
+              20.9611882,
+              41.9919528
+            ],
+            [
+              20.9610623,
+              41.9919564
+            ],
+            [
+              20.9610537,
+              41.9917872
+            ],
+            [
+              20.9611795,
+              41.9917836
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5b1bd500-4f05-4423-9d70-67b2eb29bd9f",
+        "estimated_height": 3,
+        "rf_penetration_loss": 12,
+        "pycraf_clutter_zone": 5,
+        "building": "residential"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              20.9606266,
+              41.9922741
+            ],
+            [
+              20.9606194,
+              41.9922472
+            ],
+            [
+              20.9607046,
+              41.9922347
+            ],
+            [
+              20.9607369,
+              41.9923555
+            ],
+            [
+              20.960613,
+              41.9923738
+            ],
+            [
+              20.9605879,
+              41.9922798
+            ],
+            [
+              20.9606266,
+              41.9922741
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "17239837-edb3-4965-9e56-8405c5aa4766",
+        "estimated_height": 3,
+        "rf_penetration_loss": 12,
+        "pycraf_clutter_zone": 5,
+        "building": "residential"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              20.9609005,
+              41.9929652
+            ],
+            [
+              20.9605441,
+              41.9930035
+            ],
+            [
+              20.9604696,
+              41.9926206
+            ],
+            [
+              20.960826,
+              41.9925823
+            ],
+            [
+              20.9609005,
+              41.9929652
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "362faa60-7881-4c72-97c8-ab1e87cbcaa2",
+        "estimated_height": 3,
+        "rf_penetration_loss": 12,
+        "pycraf_clutter_zone": 5,
+        "building": "residential"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              20.9613684,
+              41.9930669
+            ],
+            [
+              20.960937,
+              41.9931255
+            ],
+            [
+              20.960926,
+              41.99303
+            ],
+            [
+              20.9610201,
+              41.9930139
+            ],
+            [
+              20.9609395,
+              41.9926629
+            ],
+            [
+              20.9612763,
+              41.9926156
+            ],
+            [
+              20.961247,
+              41.9925021
+            ],
+            [
+              20.9613561,
+              41.9924832
+            ],
+            [
+              20.9614794,
+              41.9929338
+            ],
+            [
+              20.9614365,
+              41.9930175
+            ],
+            [
+              20.9613684,
+              41.9930669
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "29836cab-6866-4142-b4eb-81a5604646e6",
+        "estimated_height": 3,
+        "rf_penetration_loss": 12,
+        "pycraf_clutter_zone": 5,
+        "building": "residential"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              20.9615001,
+              41.9938581
+            ],
+            [
+              20.9611187,
+              41.9939139
+            ],
+            [
+              20.9610623,
+              41.993701
+            ],
+            [
+              20.9614437,
+              41.9936452
+            ],
+            [
+              20.9615001,
+              41.9938581
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "e9ec0856-0c45-40b7-8611-19e057ec64c6",
+        "estimated_height": 3,
+        "rf_penetration_loss": 12,
+        "pycraf_clutter_zone": 5,
+        "building": "residential"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              20.960678,
+              41.9938611
+            ],
+            [
+              20.9607638,
+              41.9938598
+            ],
+            [
+              20.9607655,
+              41.9939188
+            ],
+            [
+              20.9606797,
+              41.9939201
+            ],
+            [
+              20.960678,
+              41.9938611
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "af626e03-f0ab-4fc3-9287-f37dcff30d23",
+        "estimated_height": 3,
+        "rf_penetration_loss": 12,
+        "pycraf_clutter_zone": 5,
+        "building": "residential"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              20.9607915,
+              41.9939655
+            ],
+            [
+              20.9608098,
+              41.9940135
+            ],
+            [
+              20.9607353,
+              41.9940291
+            ],
+            [
+              20.960717,
+              41.9939812
+            ],
+            [
+              20.9607915,
+              41.9939655
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "id": "2439e0be-d2ad-42b5-9536-f9f02de31163",
-        "estimated_height": 5,
+        "estimated_height": 3,
         "rf_penetration_loss": 12,
         "pycraf_clutter_zone": 5,
         "building": "residential"
@@ -2001,7 +3894,7 @@
       "type": "Feature",
       "properties": {
         "id": "5d1f7e3c-8188-48c6-9075-096f0c19b6d4",
-        "estimated_height": 5,
+        "estimated_height": 3,
         "rf_penetration_loss": 12,
         "pycraf_clutter_zone": 5,
         "building": "residential"
@@ -2037,8 +3930,193 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "ac85b73d-feb7-45cd-817b-5a14ea849602",
+        "estimated_height": 3,
+        "rf_penetration_loss": 12,
+        "pycraf_clutter_zone": 5,
+        "building": "residential"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              20.9649893,
+              41.9862988
+            ],
+            [
+              20.9649342,
+              41.9862831
+            ],
+            [
+              20.9649683,
+              41.986217
+            ],
+            [
+              20.9650234,
+              41.9862328
+            ],
+            [
+              20.9649893,
+              41.9862988
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "8abe7583-5c78-472c-8065-4392355917b8",
+        "estimated_height": 3,
+        "rf_penetration_loss": 12,
+        "pycraf_clutter_zone": 5,
+        "building": "residential"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              20.9650691,
+              41.9862453
+            ],
+            [
+              20.9651404,
+              41.9862575
+            ],
+            [
+              20.9651076,
+              41.9863635
+            ],
+            [
+              20.9650363,
+              41.9863513
+            ],
+            [
+              20.9650691,
+              41.9862453
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "7d2e085c-4b1a-4283-bf4d-ed62542e0a45",
+        "estimated_height": 3,
+        "rf_penetration_loss": 12,
+        "pycraf_clutter_zone": 5,
+        "building": "residential"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              20.9649685,
+              41.986421
+            ],
+            [
+              20.9648745,
+              41.9864028
+            ],
+            [
+              20.9649026,
+              41.9863225
+            ],
+            [
+              20.9649967,
+              41.9863408
+            ],
+            [
+              20.9649685,
+              41.986421
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "bcd42d9c-248a-4863-9e0e-21b3cf551ca3",
+        "estimated_height": 3,
+        "rf_penetration_loss": 12,
+        "pycraf_clutter_zone": 5,
+        "building": "residential"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              20.9635555,
+              41.9883517
+            ],
+            [
+              20.9636194,
+              41.9883438
+            ],
+            [
+              20.9636281,
+              41.9883826
+            ],
+            [
+              20.9635642,
+              41.9883905
+            ],
+            [
+              20.9635555,
+              41.9883517
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "14bc1274-d746-4cfd-87c4-b57278a5565b",
+        "estimated_height": 3,
+        "rf_penetration_loss": 12,
+        "pycraf_clutter_zone": 5,
+        "building": "residential"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              20.9643436,
+              41.9880435
+            ],
+            [
+              20.9643629,
+              41.9880954
+            ],
+            [
+              20.9642882,
+              41.9881108
+            ],
+            [
+              20.9642689,
+              41.9880589
+            ],
+            [
+              20.9643436,
+              41.9880435
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "id": "0cc5ff4f-66f8-4075-a762-23514ec9278e",
-        "estimated_height": 5,
+        "estimated_height": 3,
         "rf_penetration_loss": 12,
         "pycraf_clutter_zone": 5,
         "building": "residential"
@@ -2075,7 +4153,7 @@
       "type": "Feature",
       "properties": {
         "id": "e6d91ec7-d8d4-4bdb-8218-b2d141ddc397",
-        "estimated_height": 5,
+        "estimated_height": 3,
         "rf_penetration_loss": 12,
         "pycraf_clutter_zone": 5,
         "building": "residential"
@@ -2152,7 +4230,7 @@
       "type": "Feature",
       "properties": {
         "id": "81113320-a55f-447d-ac91-7f1f303fe3e1",
-        "estimated_height": 5,
+        "estimated_height": 3,
         "rf_penetration_loss": 12,
         "pycraf_clutter_zone": 5,
         "building": "residential"
@@ -2180,6 +4258,854 @@
             [
               20.9618315,
               41.9891302
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "8b475323-6b3d-4e21-9cb2-1746ea15102f",
+        "estimated_height": 3,
+        "rf_penetration_loss": 12,
+        "pycraf_clutter_zone": 5,
+        "building": "residential"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              20.9625648,
+              41.9897307
+            ],
+            [
+              20.9625661,
+              41.9896769
+            ],
+            [
+              20.9626373,
+              41.9896778
+            ],
+            [
+              20.9626361,
+              41.9897316
+            ],
+            [
+              20.9625648,
+              41.9897307
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5468a3dd-d348-4a82-a358-8cd7a386feb3",
+        "estimated_height": 3,
+        "rf_penetration_loss": 12,
+        "pycraf_clutter_zone": 5,
+        "building": "residential"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              20.9638842,
+              41.9898705
+            ],
+            [
+              20.9638117,
+              41.9895327
+            ],
+            [
+              20.9637359,
+              41.9895121
+            ],
+            [
+              20.9637255,
+              41.9895333
+            ],
+            [
+              20.9636804,
+              41.989521
+            ],
+            [
+              20.9636686,
+              41.9894658
+            ],
+            [
+              20.9638472,
+              41.9894446
+            ],
+            [
+              20.9639916,
+              41.9894837
+            ],
+            [
+              20.964079,
+              41.9898908
+            ],
+            [
+              20.9640191,
+              41.9898979
+            ],
+            [
+              20.9639782,
+              41.9898868
+            ],
+            [
+              20.9639547,
+              41.9898896
+            ],
+            [
+              20.9638842,
+              41.9898705
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5cd34332-da68-4643-8b0b-9ec1553b111e",
+        "estimated_height": 3,
+        "rf_penetration_loss": 12,
+        "pycraf_clutter_zone": 5,
+        "building": "residential"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              20.9625136,
+              41.9900605
+            ],
+            [
+              20.9624852,
+              41.9899634
+            ],
+            [
+              20.9622009,
+              41.9900093
+            ],
+            [
+              20.9621715,
+              41.9899084
+            ],
+            [
+              20.9621429,
+              41.9898106
+            ],
+            [
+              20.9624374,
+              41.989763
+            ],
+            [
+              20.9624671,
+              41.9898646
+            ],
+            [
+              20.9626029,
+              41.9898427
+            ],
+            [
+              20.9626157,
+              41.9898865
+            ],
+            [
+              20.9625966,
+              41.9898896
+            ],
+            [
+              20.9626295,
+              41.9900019
+            ],
+            [
+              20.962628,
+              41.9900022
+            ],
+            [
+              20.9626391,
+              41.9900402
+            ],
+            [
+              20.9625136,
+              41.9900605
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "3a7a709a-3a96-483b-a958-b00d1b40c4d2",
+        "estimated_height": 3,
+        "rf_penetration_loss": 12,
+        "pycraf_clutter_zone": 5,
+        "building": "residential"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              20.9624825,
+              41.9898344
+            ],
+            [
+              20.9624625,
+              41.9897799
+            ],
+            [
+              20.9625659,
+              41.9897589
+            ],
+            [
+              20.9625859,
+              41.9898134
+            ],
+            [
+              20.9624825,
+              41.9898344
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "4084cc98-35ee-455a-9931-9873926e0f5f",
+        "estimated_height": 3,
+        "rf_penetration_loss": 12,
+        "pycraf_clutter_zone": 5,
+        "building": "residential"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              20.9620041,
+              41.9901512
+            ],
+            [
+              20.9623552,
+              41.9901075
+            ],
+            [
+              20.9623676,
+              41.9901625
+            ],
+            [
+              20.9620165,
+              41.9902062
+            ],
+            [
+              20.9620041,
+              41.9901512
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "2b8c4c36-ad7d-43f7-b3fa-2491b42b9037",
+        "estimated_height": 3,
+        "rf_penetration_loss": 12,
+        "pycraf_clutter_zone": 5,
+        "building": "residential"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              20.9624379,
+              41.9902853
+            ],
+            [
+              20.9625125,
+              41.9906606
+            ],
+            [
+              20.9618616,
+              41.9907321
+            ],
+            [
+              20.9618459,
+              41.9906534
+            ],
+            [
+              20.961994,
+              41.9906371
+            ],
+            [
+              20.9619844,
+              41.990589
+            ],
+            [
+              20.9623598,
+              41.9905478
+            ],
+            [
+              20.9623433,
+              41.9904651
+            ],
+            [
+              20.9619511,
+              41.9905082
+            ],
+            [
+              20.9619497,
+              41.9905011
+            ],
+            [
+              20.9618721,
+              41.9905097
+            ],
+            [
+              20.9618351,
+              41.9903236
+            ],
+            [
+              20.9618324,
+              41.9903239
+            ],
+            [
+              20.9617886,
+              41.9901035
+            ],
+            [
+              20.9618715,
+              41.9900944
+            ],
+            [
+              20.9619173,
+              41.9903246
+            ],
+            [
+              20.9622795,
+              41.9902848
+            ],
+            [
+              20.962283,
+              41.9903023
+            ],
+            [
+              20.9624379,
+              41.9902853
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "252a862c-ef6c-419d-8405-017ea4bba5e4",
+        "estimated_height": 3,
+        "rf_penetration_loss": 12,
+        "pycraf_clutter_zone": 5,
+        "building": "residential"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              20.9631399,
+              41.990326
+            ],
+            [
+              20.9631709,
+              41.9904576
+            ],
+            [
+              20.9628106,
+              41.9905044
+            ],
+            [
+              20.9626476,
+              41.9898111
+            ],
+            [
+              20.9628298,
+              41.9897874
+            ],
+            [
+              20.9628484,
+              41.9898667
+            ],
+            [
+              20.9628287,
+              41.9898693
+            ],
+            [
+              20.9629421,
+              41.9903517
+            ],
+            [
+              20.9631399,
+              41.990326
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "4fd7288c-81c5-483d-98ea-93dbead8fd04",
+        "estimated_height": 3,
+        "rf_penetration_loss": 12,
+        "pycraf_clutter_zone": 5,
+        "building": "residential"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              20.9620039,
+              41.9910365
+            ],
+            [
+              20.9621425,
+              41.99102
+            ],
+            [
+              20.9621755,
+              41.9911736
+            ],
+            [
+              20.9620369,
+              41.9911901
+            ],
+            [
+              20.9620039,
+              41.9910365
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "b3134836-49e0-473a-a059-8f78925db847",
+        "estimated_height": 3,
+        "rf_penetration_loss": 12,
+        "pycraf_clutter_zone": 5,
+        "building": "residential"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              20.9637763,
+              41.9907116
+            ],
+            [
+              20.9638416,
+              41.9907091
+            ],
+            [
+              20.9638445,
+              41.9907521
+            ],
+            [
+              20.9637793,
+              41.9907546
+            ],
+            [
+              20.9637763,
+              41.9907116
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "18c36707-80af-4720-b49c-15b8a02af0a1",
+        "estimated_height": 3,
+        "rf_penetration_loss": 12,
+        "pycraf_clutter_zone": 5,
+        "building": "residential"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              20.9620065,
+              41.9918833
+            ],
+            [
+              20.9618799,
+              41.9918955
+            ],
+            [
+              20.9618432,
+              41.9916857
+            ],
+            [
+              20.9617574,
+              41.9916738
+            ],
+            [
+              20.9617294,
+              41.9915336
+            ],
+            [
+              20.9621323,
+              41.9914892
+            ],
+            [
+              20.9620966,
+              41.99131
+            ],
+            [
+              20.9622368,
+              41.9912946
+            ],
+            [
+              20.9623422,
+              41.9918233
+            ],
+            [
+              20.9621954,
+              41.9918394
+            ],
+            [
+              20.9621544,
+              41.9916339
+            ],
+            [
+              20.961972,
+              41.9916578
+            ],
+            [
+              20.9620065,
+              41.9918833
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ceeab048-b934-4d85-9128-586b75220951",
+        "estimated_height": 3,
+        "rf_penetration_loss": 12,
+        "pycraf_clutter_zone": 5,
+        "building": "residential"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              20.9623275,
+              41.9920594
+            ],
+            [
+              20.9622284,
+              41.9920332
+            ],
+            [
+              20.9622635,
+              41.99196
+            ],
+            [
+              20.9623626,
+              41.9919863
+            ],
+            [
+              20.9623275,
+              41.9920594
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "686b6595-4e31-4080-8b03-ceebc82b3ff2",
+        "estimated_height": 3,
+        "rf_penetration_loss": 12,
+        "pycraf_clutter_zone": 5,
+        "building": "residential"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              20.9638025,
+              41.9911449
+            ],
+            [
+              20.9638064,
+              41.9912074
+            ],
+            [
+              20.9637492,
+              41.9912093
+            ],
+            [
+              20.9637453,
+              41.9911468
+            ],
+            [
+              20.9638025,
+              41.9911449
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "3379ac02-e985-4fea-91ec-e4bc23af5fd1",
+        "estimated_height": 3,
+        "rf_penetration_loss": 12,
+        "pycraf_clutter_zone": 5,
+        "building": "residential"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              20.9621544,
+              41.9932039
+            ],
+            [
+              20.9619064,
+              41.9932311
+            ],
+            [
+              20.961791,
+              41.9926508
+            ],
+            [
+              20.962124,
+              41.9926142
+            ],
+            [
+              20.9621492,
+              41.9927404
+            ],
+            [
+              20.9620267,
+              41.9927539
+            ],
+            [
+              20.962046,
+              41.9928509
+            ],
+            [
+              20.9624459,
+              41.9928069
+            ],
+            [
+              20.96243,
+              41.9927267
+            ],
+            [
+              20.9623086,
+              41.99274
+            ],
+            [
+              20.9622803,
+              41.9925975
+            ],
+            [
+              20.9626325,
+              41.9925588
+            ],
+            [
+              20.9627478,
+              41.9931388
+            ],
+            [
+              20.962546,
+              41.9931609
+            ],
+            [
+              20.9625299,
+              41.9931131
+            ],
+            [
+              20.9624655,
+              41.9931171
+            ],
+            [
+              20.9624601,
+              41.9931649
+            ],
+            [
+              20.9624011,
+              41.9932008
+            ],
+            [
+              20.962326,
+              41.9932207
+            ],
+            [
+              20.9622778,
+              41.9932168
+            ],
+            [
+              20.9622027,
+              41.9931849
+            ],
+            [
+              20.9621939,
+              41.9931407
+            ],
+            [
+              20.9621429,
+              41.9931463
+            ],
+            [
+              20.9621544,
+              41.9932039
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "367b1d42-3134-49f3-b5b4-b09a14f14fde",
+        "estimated_height": 3,
+        "rf_penetration_loss": 12,
+        "pycraf_clutter_zone": 5,
+        "building": "residential"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              20.9632925,
+              41.9926637
+            ],
+            [
+              20.9633012,
+              41.9926992
+            ],
+            [
+              20.9631652,
+              41.9927176
+            ],
+            [
+              20.9631565,
+              41.9926821
+            ],
+            [
+              20.9632925,
+              41.9926637
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "65f99246-cf03-48b6-a35f-27a7c4ec54fd",
+        "estimated_height": 3,
+        "rf_penetration_loss": 12,
+        "pycraf_clutter_zone": 5,
+        "building": "residential"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              20.9630493,
+              41.9935393
+            ],
+            [
+              20.9630513,
+              41.9935731
+            ],
+            [
+              20.962971,
+              41.9935758
+            ],
+            [
+              20.962969,
+              41.993542
+            ],
+            [
+              20.9630493,
+              41.9935393
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "3281b317-58fe-4de0-8ef6-d6f00c91ae1e",
+        "estimated_height": 3,
+        "rf_penetration_loss": 12,
+        "pycraf_clutter_zone": 5,
+        "building": "residential"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              20.9639863,
+              41.9932668
+            ],
+            [
+              20.9640457,
+              41.993555
+            ],
+            [
+              20.9635059,
+              41.9936166
+            ],
+            [
+              20.9634753,
+              41.9934685
+            ],
+            [
+              20.9634439,
+              41.9934721
+            ],
+            [
+              20.963415,
+              41.9933319
+            ],
+            [
+              20.9639863,
+              41.9932668
             ]
           ]
         ]

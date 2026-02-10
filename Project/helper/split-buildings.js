@@ -1,8 +1,8 @@
 const fs = require("fs");
 const path = require("path");
 
-const INPUT_FILE = ("D:\\Computer-Graphics\\Project\\data\\SEEUcampus.geojson");
-const OUTPUT_DIR = ("D:\\Computer-Graphics\\Project\\campus");
+const INPUT_FILE = ("/home/ihaliti03/projects/samirProject/Computer-Graphics/Project/data/SEEUcampus.geojson");
+const OUTPUT_DIR = ("/home/ihaliti03/projects/samirProject/Computer-Graphics/Project/data/campus");
 const YEAR_FIELD = "year";
 
 const geojson = JSON.parse(fs.readFileSync(INPUT_FILE, "utf8"));

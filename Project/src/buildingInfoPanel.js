@@ -1,5 +1,4 @@
 import * as THREE from 'three';
-import { BUILDING_INFO, getBuildingYear } from './buildingData.js';
 
 export class BuildingInfoPanel {
   constructor() {

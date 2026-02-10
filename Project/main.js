@@ -6,10 +6,7 @@ import { configureTextures, createMaterials } from './src/materials.js';
 
 // Import new timeline components
 import { IntroBanner } from './src/introBanner.js';
-import { TimelineUI } from './src/timelineUI.js';
-import { BuildingAnimator } from './src/buildingAnimator.js';
 import { BuildingInfoPanel } from './src/buildingInfoPanel.js';
-import { BUILDING_TIMELINE, BUILDING_INFO } from './src/buildingData.js';
 
 const renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true });
 renderer.setSize(window.innerWidth, window.innerHeight);
