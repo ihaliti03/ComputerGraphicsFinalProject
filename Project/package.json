@@ -15,7 +15,9 @@
   "packageManager": "pnpm@10.17.1",
   "dependencies": {
     "@turf/turf": "^7.2.0",
-    "three": "^0.180.0"
+    "osmtogeojson": "^3.0.0-beta.5",
+    "three": "^0.180.0",
+    "xml2js": "^0.6.2"
   },
   "devDependencies": {
     "vite": "^7.1.11"

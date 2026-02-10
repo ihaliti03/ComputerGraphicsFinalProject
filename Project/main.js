@@ -1,11 +1,8 @@
 import * as THREE from 'three';
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js';
-import { EXRLoader } from 'three/examples/jsm/loaders/EXRLoader.js';
 import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader.js';
-import { configureTextures, createMaterials } from './src/materials.js';
+import { createMaterials } from './src/materials.js';
 
-// Import new timeline components
-import { IntroBanner } from './src/introBanner.js';
 import { BuildingInfoPanel } from './src/buildingInfoPanel.js';
 
 const renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true });
@@ -18,7 +15,7 @@ document.body.appendChild(renderer.domElement);
 
 // --- Scene Setup ---
 const scene = new THREE.Scene();
-renderer.setClearColor(0x000000, 0);
+renderer.setClearColor(0x87CEEB, 1);
 const campusGroup = new THREE.Group();
 scene.add(campusGroup);
 campusGroup.scale.setScalar(1);
@@ -26,61 +23,49 @@ campusGroup.rotation.x = -Math.PI / 2;
 
 // --- Camera Setup ---
 const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 2000);
-// Default camera position showing entire campus
-camera.position.set(80.85, 339.77, -197.06); // Good overview angle
-camera.up.set(0, 1, 0); // World Y is up
-camera.lookAt(80.85, 0, -197.06); // Look at campus center
+camera.position.set(80.85, 339.77, -197.06);
+camera.up.set(0, 1, 0);
+camera.lookAt(80.85, 0, -197.06);
 
 // --- Controls ---
 const controls = new OrbitControls(camera, renderer.domElement);
 controls.enableDamping = true;
-controls.target.set(80.85, 0, -197.06); // Target campus center
+controls.target.set(80.85, 0, -197.06);
 controls.screenSpacePanning = false;
 controls.enableRotate = true;
-controls.minPolarAngle = 0; // Allow camera to rotate fully above the ground
-controls.maxPolarAngle = Math.PI; // Allow camera to rotate below the ground if needed
-controls.minAzimuthAngle = -Infinity; // Allow free horizontal rotation
+controls.minPolarAngle = 0;
+controls.maxPolarAngle = Math.PI;
+controls.minAzimuthAngle = -Infinity;
 controls.maxAzimuthAngle = Infinity;
 controls.update();
 
 // --- Lighting ---
-const hemiLight = new THREE.HemisphereLight(0xB1E1FF, 0x3a2f27, 0.3);
+const hemiLight = new THREE.HemisphereLight(0xffffff, 0x4a7c23, 0.6);
 scene.add(hemiLight);
 
-const dirLight = new THREE.DirectionalLight(0xfff1cc, 0.8);
-dirLight.position.set(300, -120, 240);
+const dirLight = new THREE.DirectionalLight(0xffffff, 1.0);
+dirLight.position.set(200, 200, 100);
 dirLight.castShadow = true;
-dirLight.shadow.camera.top = 220;
-dirLight.shadow.camera.bottom = -220;
-dirLight.shadow.camera.left = -220;
-dirLight.shadow.camera.right = 220;
+dirLight.shadow.camera.top = 500;
+dirLight.shadow.camera.bottom = -500;
+dirLight.shadow.camera.left = -500;
+dirLight.shadow.camera.right = 500;
 dirLight.shadow.mapSize.width = 2048;
 dirLight.shadow.mapSize.height = 2048;
 dirLight.target.position.set(0, 0, 0);
 scene.add(dirLight);
 
-const fillLight = new THREE.PointLight(0xffc38b, 0.2, 600);
-fillLight.position.set(-180, -220, 140);
+const fillLight = new THREE.PointLight(0xffffee, 0.4, 800);
+fillLight.position.set(-150, 150, 100);
 scene.add(fillLight);
 
-const exrLoader = new EXRLoader();
+const ambientLight = new THREE.AmbientLight(0x404040, 0.5);
+scene.add(ambientLight);
+
 const gltfLoader = new GLTFLoader();
 
 // --- HDRI Environment ---
-exrLoader.load(
-    'textures/autumn_field_4k.exr',
-    (texture) => {
-        texture.mapping = THREE.EquirectangularReflectionMapping;
-        scene.environment = texture;
-        scene.background = texture;
-        console.log('Autumn Field HDRI environment loaded');
-    },
-    undefined,
-    (error) => {
-        console.warn('Autumn Field HDRI not found, using solid color background', error);
-        scene.background = null;
-    }
-);
+scene.background = new THREE.Color(0x87CEEB);
 
 // Raycasting for interaction
 const raycaster = new THREE.Raycaster();
@@ -89,26 +74,14 @@ let highlightedBuilding = null;
 let buildingMaterialCursor = 0;
 
 // --- Initialize Components ---
-const introBanner = new IntroBanner();
-const timelineUI = new TimelineUI(
-    (year, animate) => handleYearChange(year, animate),
-    (isPlaying) => {
-        console.log('Timeline playing:', isPlaying);
-        buildingAnimator.setPaused(!isPlaying);
-    }
-);
-const buildingAnimator = new BuildingAnimator(scene, camera, controls);
-const infoPanel = new BuildingInfoPanel();
 
 // --- Initialize Materials ---
-configureTextures();
-const { groundMaterial, roadMaterial, walkwayMaterial, buildingMaterials } = createMaterials();
+const { walkwayMaterial, roadMaterial, buildingMaterials } = createMaterials();
 
 // --- Environment ---
-scene.fog = new THREE.Fog(0xADD8E6, 500, 1500); // Light fog - visible only at very far distances
 
 // --- Ground Plane ---
-const ground = new THREE.Mesh(new THREE.PlaneGeometry(2000, 2000), groundMaterial);
+const ground = new THREE.Mesh(new THREE.PlaneGeometry(3000, 3000), new THREE.MeshStandardMaterial({ color: 0x4a7c23 }));
 ground.position.z = -0.1;
 ground.receiveShadow = true;
 campusGroup.add(ground);
@@ -150,66 +123,72 @@ function loadWalkways() {
         });
 }
 
+const BOUNDS = {
+    minLon: 20.95853286124489,
+    maxLon: 20.96584573595831,
+    minLat: 41.98350594518007,
+    maxLat: 41.994342701395055
+};
+
+function isInBounds(coords) {
+    return coords.every(coord =>
+        coord[0] >= BOUNDS.minLon && coord[0] <= BOUNDS.maxLon &&
+        coord[1] >= BOUNDS.minLat && coord[1] <= BOUNDS.maxLat
+    );
+}
+
 function loadGeoJson(url, options) {
     fetch(url)
         .then(res => res.json())
         .then(data => {
             data.features.forEach(feature => {
-                const polygons = feature.geometry.type === 'Polygon' ? [feature.geometry.coordinates] : feature.geometry.coordinates;
-                
-                polygons.forEach(polygon => {
-                    if (!polygon || !polygon[0] || polygon[0].length < 3) return;
-                    const shape = new THREE.Shape();
-                    polygon[0].forEach((coord, i) => {
+                if (feature.geometry.type === 'LineString') {
+                    const coords = feature.geometry.coordinates;
+                    if (!coords || coords.length < 2) return;
+                    if (!isInBounds(coords)) return;
+
+                    const points = coords.map(coord => {
                         const [x, y] = projectCoord(coord);
-                        i === 0 ? shape.moveTo(x, y) : shape.lineTo(x, y);
+                        return new THREE.Vector3(x, y, options.y_position || 0);
                     });
 
-                    let extrudeSettings;
-                    let material;
+                    const geometry = new THREE.BufferGeometry().setFromPoints(points);
+                    const lineMaterial = new THREE.LineBasicMaterial({ color: 0x111111, linewidth: 2 });
+                    const line = new THREE.Line(geometry, lineMaterial);
+                    campusGroup.add(line);
+                } else if (feature.geometry.type === 'Polygon') {
+                    const polygons = [feature.geometry.coordinates];
+                    
+                    polygons.forEach(polygon => {
+                        if (!polygon || !polygon[0] || polygon[0].length < 3) return;
+                        if (!isInBounds(polygon[0])) return;
+                        const shape = new THREE.Shape();
+                        polygon[0].forEach((coord, i) => {
+                            const [x, y] = projectCoord(coord);
+                            i === 0 ? shape.moveTo(x, y) : shape.lineTo(x, y);
+                        });
 
-                    if (options.isBuilding && Array.isArray(options.materials) && options.materials.length) {
-                        const height = Number(feature.properties?.estimated_height) || 10;
-                        extrudeSettings = { depth: height, bevelEnabled: false };
+                        const extrudeSettings = options.extrudeSettings;
+                        const material = options.material;
 
-                        const materialDescriptor = options.materials[buildingMaterialCursor % options.materials.length];
-                        buildingMaterialCursor += 1;
-                        const baseMaterial = materialDescriptor.material;
-                        material = baseMaterial.clone();
-                        material.name = baseMaterial.name;
-                    } else {
-                        extrudeSettings = options.extrudeSettings;
-                        material = options.material;
-                    }
+                        const geometry = new THREE.ExtrudeGeometry(shape, extrudeSettings);
+                        const mesh = new THREE.Mesh(geometry, material);
+                        mesh.position.z = options.y_position || 0;
+                        mesh.castShadow = true;
+                        mesh.receiveShadow = true;
 
-                    const geometry = new THREE.ExtrudeGeometry(shape, extrudeSettings);
-                    const mesh = new THREE.Mesh(geometry, material);
-                    mesh.position.z = options.y_position || 0;
-                    mesh.castShadow = true;
-                    mesh.receiveShadow = true;
-
-                    campusGroup.add(mesh);
-                });
+                        campusGroup.add(mesh);
+                    });
+                }
             });
         });
 }
 
 function loadSplitBuildings() {
-    // Get all building files dynamically
-    const buildingFiles = [
-        'building_001.geojson', 'building_101.geojson', 'building_101_classes.geojson', 'building_101_under.geojson',
-        'building_301.geojson', 'building_302.geojson', 'building_303.geojson', 'building_304.geojson', 'building_315.geojson',
-        'building_400.geojson', 'building_803.geojson', 'building_804.geojson', 'building_805.geojson', 'building_806.geojson',
-        'building_807.geojson', 'building_808.geojson', 'building_809.geojson', 'building_810.geojson', 'building_811.geojson',
-        'building_812.geojson', 'building_813.geojson', 'building_816.geojson', 'building_817.geojson', 'building_818.geojson',
-        'building_1001.geojson', 'building_1002.geojson', 'building_dorm1.geojson', 'building_dorm2.geojson', 'building_dorm3.geojson',
-        'building_dorm4.geojson', 'building_dorm5.geojson', 'building_dorm6.geojson', 'building_dorm7.geojson', 'building_dorm8.geojson',
-        'building_dorm9.geojson', 'building_library.geojson', 'building_library1.geojson', 'building_lh1.geojson', 'building_lh2.geojson',
-        'building_cantine.geojson', 'building_cantine_inside.geojson', 'building_conn.geojson', 'building_change_room.geojson',
-        'building_pavillion.geojson', 'building_misc.geojson', 'building_book_shop.geojson', 'building_tech_park.geojson',
-        'building_solar_1.geojson', 'building_solar_2.geojson', 'building_student_service_1.geojson', 'building_student_service_2.geojson',
-        'building_empty.geojson', 'building_idk.geojson'
-    ];
+    const buildingFiles = [];
+    for (let i = 1; i <= 114; i++) {
+        buildingFiles.push(`building_${i}.geojson`);
+    }
 
     const buildingsPerBatch = 100;
     let loadedCount = 0;
@@ -220,7 +199,7 @@ function loadSplitBuildings() {
         
         for (let i = startIndex; i < endIndex; i++) {
             const fileName = buildingFiles[i];
-            const url = `campus/buildings/${fileName}`;
+            const url = `data/campus/unknown/${fileName}`;
             
             if (!fileName) continue;
             
@@ -262,9 +241,6 @@ function loadSplitBuildings() {
                                     mesh.userData.buildingName = cleanFileName;
                                     mesh.userData.fileName = cleanFileName;
 
-                                    // Register with animator
-                                    buildingAnimator.registerBuilding(cleanFileName, mesh);
-
                                     // Add emissive for highlighting
                                     if (mesh.material && mesh.material.emissive) {
                                         mesh.material.emissiveIntensity = 0.2;
@@ -285,8 +261,6 @@ function loadSplitBuildings() {
                 setTimeout(() => loadBatch(endIndex), 50);
             } else {
                 console.log(`Loaded ${loadedCount} buildings from split files`);
-                // After all buildings loaded, start the timeline
-                startTimeline();
             }
         });
     }
@@ -294,15 +268,7 @@ function loadSplitBuildings() {
     loadBatch(0);
 }
 
-// --- Timeline Control Functions ---
-function handleYearChange(year, animate = true) {
-    console.log('Year changed to:', year);
-    buildingAnimator.showBuildingsUpToYear(year, animate);
-}
-
 function startTimeline() {
-    // Show initial year (2001) with animation
-    buildingAnimator.showBuildingsUpToYear(2001, true);
 }
 
 // --- Interaction ---
@@ -320,12 +286,9 @@ function handlePointerClick(event) {
         
         if (buildingName) {
             highlightBuilding(mesh);
-            const buildingInfo = buildingAnimator.getBuildingInfo(buildingName);
-            infoPanel.update(buildingName);
         }
     } else {
         highlightBuilding(null);
-        infoPanel.update(null);
     }
 }
 
@@ -375,8 +338,7 @@ window.addEventListener('resize', () => {
 });
 
 // --- Load All Data ---
-loadWalkways();
-loadGeoJson('data/roads.geojson', { material: roadMaterial, extrudeSettings: { depth: 0.1 }, y_position: 0.01 });
+loadGeoJson('data/osm_roads.geojson', { material: roadMaterial, extrudeSettings: { depth: 0.1 }, y_position: 0.01 });
 loadSplitBuildings();
 
 // --- Tree Model Loading (keep existing) ---
@@ -417,8 +379,6 @@ loadTreeModel(LOCAL_TREE_URL, () => {
 });
 
 // --- Start Animation and Intro ---
-introBanner.show(() => {
-    // Start the animation loop
-    animate(0);
-    console.log('SEEU Campus Evolution Timeline Started');
-});
+// Start the animation loop
+animate(0);
+console.log('SEEU Campus Started');

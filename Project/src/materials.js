@@ -113,11 +113,8 @@ export function createMaterials() {
 
     // Road Material
     const roadMaterial = new THREE.MeshStandardMaterial({
-        map: asphaltTextures.diffuse,
-        normalMap: asphaltTextures.normal,
-        displacementMap: asphaltTextures.displacement,
-        displacementScale: 0.01,
-        roughnessMap: asphaltTextures.roughness
+        color: 0x111111,
+        roughness: 0.9
     });
 
     // Walkway Material
